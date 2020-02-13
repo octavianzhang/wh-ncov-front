@@ -610,9 +610,13 @@ export default {
   padding: 3px 8px;
 }
 .hospital-search-bar {
-  margin-top: 5px;
+  margin: 6px -4px 0 -4px;
   display: flex;
   justify-content: space-between;
+}
+
+.hospital-search-bar div {
+  margin: 0 4px;
 }
 .hospital-search-bar .small-btn {
   width: 64px;
@@ -656,14 +660,13 @@ export default {
   position: relative;
 }
 .hospital-search-bar .search-con input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
   border-radius: 2px;
   border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
   display: block;
-  /* width:196px; */
-  height: 31px;
+
   padding: 0 10px;
 }
 .hospital-search-bar .search-con img {
