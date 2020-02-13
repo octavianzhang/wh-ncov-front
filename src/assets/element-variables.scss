@@ -1,4 +1,15 @@
-
+//覆盖element色调
 $--color-primary: #5887ff;
+$--color-success: #35C655;
+$--color-warning: #FEC44C;
+$--color-danger: #dd3939;
+$--color-info: #909399;
+
+// 自定义色值
+$color-text-outstanding: #2F3036;
+$color-text-light: #ACACAC;
+
+
+//原element样式引入
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
 @import "~element-ui/packages/theme-chalk/src/index";
